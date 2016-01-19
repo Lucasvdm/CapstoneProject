@@ -43,6 +43,7 @@ public class MusicPlayer extends Instrument {
 
     @Override
     public void calculateFrequency() {
-        //Ignore this
+        //Ignore this - it has to be overwritten in order to inherit from Instrument,
+        //but it is not needed for this class.
     }
 }
