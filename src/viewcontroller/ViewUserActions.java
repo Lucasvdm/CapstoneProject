@@ -59,7 +59,6 @@ public class ViewUserActions extends ViewOutputs {
      * User actions are written as private inner classes that implement
      * ActionListener, and override the actionPerformed method.
      *
-     * Use the following as a template for writting more user actions.
      */
     private class setColourWheelShape implements ActionListener {
 
@@ -384,7 +383,6 @@ public class ViewUserActions extends ViewOutputs {
          * the DrawnView class and which you gave a memorable public variable
          * name!).
          *
-         * Use the following as a template for wiring more user actions.
          */
         wheelLabel.addMouseListener(new trackColourWheelMouse());
         wheelLabel.addMouseMotionListener(new trackColourWheelMouse());
