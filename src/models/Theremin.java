@@ -12,6 +12,7 @@ public class Theremin extends Instrument {
 
     @Override
     public void calculateFrequency() {
+        //Calculate frequency based on relative distance of the mouse from the center of the ball
         int x = this.mouseX;
         int y = this.mouseY;
         if (x == 223 || x == 224) {
@@ -72,7 +73,6 @@ public class Theremin extends Instrument {
                     this.frequency = 750;
                 }
             }
-
             int diagonalLength = (int) Math.round(Math.sqrt(xDistance * xDistance + yDistance * yDistance));
             if (224 - diagonalLength >= 0) {
                 this.frequency = (int) (750 * ((224 - diagonalLength) / 124.0));
