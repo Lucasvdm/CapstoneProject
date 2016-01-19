@@ -1,6 +1,6 @@
 /*
  * WARNING: There is nothing in this file for students to edit or change.
- *          This file is intended to have no student-serviceable code.
+ * This file is intended to have no student-serviceable code.
  *
  * "Draw" your GUI using the "Design" tab, and remember to give
  * them memorable variable names in the "Properties" panel
