@@ -28,7 +28,7 @@ public class MusicPlayer extends Instrument {
 
     public void openRecording() {
         if (this.playing == false) {
-            JFileChooser fileChooser = new JFileChooser("C:\\Users\\Lucas\\Documents\\NetBeansProjects\\CapstoneProject\\saved music");
+            JFileChooser fileChooser = new JFileChooser();
             if (fileChooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
                 File file = fileChooser.getSelectedFile();
                 try {
