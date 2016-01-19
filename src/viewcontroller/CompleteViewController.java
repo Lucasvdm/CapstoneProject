@@ -4,7 +4,7 @@
  * to the AppRunner.
  * 
  * What's visible to the user as the GUI is drawn in the DrawnView file.
- * This template is best used for programs that has only one single window.
+ * This template is best used for programs that have only one single window.
  * If you want to create more windows or changable panels, you'll need to 
  * understand proper MVC design better.
  * 
@@ -24,12 +24,12 @@
 
 /*
  * WARNING: There is nothing in this file for students to edit or change.
- *          This file is intended to have no student-serviceable code.
+ * This file is intended to have no student-serviceable code.
  */
 package viewcontroller;
 
 /**
- * CompleteViewController collates a several classes that together form the view
+ * CompleteViewController collates several classes that together form the view
  * and controller
  *
  * The following is technical information for those interested, but students are
