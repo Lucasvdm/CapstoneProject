@@ -44,7 +44,6 @@ package models;
  * @author cheng
  */
 public class AllModelsForView extends javax.swing.JFrame {
-
     public ColourWheel colourWheel = new ColourWheel();
     public Theremin theremin = new Theremin();
     public MusicPlayer musicPlayer = new MusicPlayer();
