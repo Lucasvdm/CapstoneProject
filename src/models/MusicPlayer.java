@@ -41,10 +41,6 @@ public class MusicPlayer extends Instrument {
         }
     }
 
-    public static void calculateColour() {
-
-    }
-
     @Override
     public void calculateFrequency() {
         //Ignore this
