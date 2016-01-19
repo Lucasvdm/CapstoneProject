@@ -3,9 +3,6 @@ package runner;
 import viewcontroller.CompleteViewController;
 
 public class ProjectRunner {
-
-    // WARNING: Do NOT modify or write any code in this file!
-    //          This file is intended to have no student-serviceable code.
     
     private final static Runnable mainRunner = new Runnable() {
 
