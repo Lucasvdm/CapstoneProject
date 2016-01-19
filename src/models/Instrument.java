@@ -75,10 +75,11 @@ public abstract class Instrument {
 
     public void saveMusic() {
         if (this.recording == false) {
-            JFileChooser fileChooser = new JFileChooser("C:\\Users\\Lucas\\Documents\\NetBeansProjects\\CapstoneProject\\saved music");
+            JFileChooser fileChooser = new JFileChooser();
             if (fileChooser.showSaveDialog(null) == JFileChooser.APPROVE_OPTION) {
                 File file = fileChooser.getSelectedFile();
                 try {
+                    //Saved audio files use the .wav filetype
                     this.sample.write(file.getAbsolutePath() + ".wav", AudioFileType.WAV);
                 } catch (Exception ex) {
                     Logger.getLogger(Instrument.class.getName()).log(Level.SEVERE, null, ex);
