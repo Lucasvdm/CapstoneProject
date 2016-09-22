@@ -18,4 +18,4 @@ and "stop" lets you stop the audio.  Note: Stop must be pressed before the song 
 Runnable .jar available in the dist.zip file.
 Almost entirely written by me, with some templates given by my teacher for some of the ViewController files.
 
-Implements the Beads audio library for Java.
+Uses the Beads audio library for Java.
