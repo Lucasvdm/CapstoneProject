@@ -1,4 +1,4 @@
-# CapstoneProject
+# Grade12CapstoneProject
 Grade 12 Computer Science AP Capstone Project
 
 Java program with a GUI for music creation, recording, and playback.
